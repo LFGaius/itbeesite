@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/pagestyle.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pageventestyle.css')}}">
 </head>
 <body  id="page-top">
     <nav class="navbar navbar-expand-md" id="mainNav">
@@ -35,20 +36,20 @@
     <div class="d-flex flex-fill justify-content-around flex-wrap">
         <div class="info-zone flex-fill d-flex flex-column justify-content-start">
             <div class="image-block" style="background-color: rgba(10, 10, 10, 1);
-                                            background-image: url('../assets/coaching-img.jpg');
+                                            background-image: url('assets/formation-img.jpg');
                                             background-size:100% 65vh;
                                             color: #f9f9f9;">
                 <div class="image d-flex flex-column justify-content-center text-center">
-                    COACHING
+                    FORMATION
                 </div>
             </div>
             
             <div class="text p-3">
-                Nous sommes disposer à vous coacher que vous soyez un particulier ou une entreprise ! 
+                Nous faisons de la formation ... 
             </div>
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">
-            <div class="title">Faites une demande de coaching en remplissant ce formulaire !</div>
+            <div class="title">Faites une demande de formation en remplissant ce formulaire !</div>
             <form class="form-block">
                 <div class="form-group">
                     <label for="completename">Nom Complet</label>
@@ -78,6 +79,23 @@
                         <label for="phone">Téléphone</label>
                         <input type="phone" class="form-control" id="phone" name="phone" placeholder="Numéro de téléphone">
                     </div>
+                </div>
+
+                <div class="form-group flex-fill mr-2">
+                    <label for="gender">Type De Formation</label>
+                    <select class="form-control" id="gender" name="gender">
+                        <option>Connaître sa vocation</option>
+                        <option>Comment créer une entreprise</option>
+                        <option>Secrétariat Bureautique</option>
+                        <option>Secrétariat Comptable</option>
+                        <option>Secrétariat de Direction</option>
+                        <option>Infographie et multimédia</option>
+                        <option>Maintenance Informatique</option>
+                        <option>Communication et marketing</option>
+                        <option>Développement web</option>
+                        <option>Gestion des ressources humaines</option>
+                        <option>Management des projets et leadership</option>
+                    </select>
                 </div>
                 
                 <div class="form-group">

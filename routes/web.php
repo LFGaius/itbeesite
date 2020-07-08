@@ -20,3 +20,25 @@ Route::get('/', function () {
 Route::get('/ventemateriel', function () {
     return view('pages.ventemateriel');
 });
+
+Route::get('/coaching', function () {
+    return view('pages.coaching');
+});
+
+Route::get('/formation', function () {
+    return view('pages.formation');
+});
+
+Route::get('/consulting', function () {
+    return view('pages.consulting');
+});
+
+Route::get('/maintinfo', function () {
+    return view('pages.maintinfo');
+});
+
+
+Route::get('/secretbureau', function () {
+    return view('pages.secretbureau');
+});
+

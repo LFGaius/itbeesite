@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/pagestyle.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pageventestyle.css')}}">
 </head>
 <body  id="page-top">
     <nav class="navbar navbar-expand-md" id="mainNav">
@@ -35,20 +36,20 @@
     <div class="d-flex flex-fill justify-content-around flex-wrap">
         <div class="info-zone flex-fill d-flex flex-column justify-content-start">
             <div class="image-block" style="background-color: rgba(10, 10, 10, 1);
-                                            background-image: url('../assets/coaching-img.jpg');
+                                            background-image: url('assets/consulting-img.jpg');
                                             background-size:100% 65vh;
                                             color: #f9f9f9;">
                 <div class="image d-flex flex-column justify-content-center text-center">
-                    COACHING
+                    CONSULTING
                 </div>
             </div>
             
             <div class="text p-3">
-                Nous sommes disposer à vous coacher que vous soyez un particulier ou une entreprise ! 
+                Nous faisons de la consultation ... 
             </div>
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">
-            <div class="title">Faites une demande de coaching en remplissant ce formulaire !</div>
+            <div class="title">Faites une demande de consulting en remplissant ce formulaire !</div>
             <form class="form-block">
                 <div class="form-group">
                     <label for="completename">Nom Complet</label>

@@ -19,13 +19,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav d-flex justify-content-end">
                 <li class="nav-item d-flex flex-column justify-content-center">   
-                    <a class="nav-link js-scroll-trigger d-flex flex-column justify-content-center" href="index.html#aboutus">A Propos De Nous</a>
+                    <a class="nav-link js-scroll-trigger d-flex flex-column justify-content-center" href="/#aboutus">A Propos De Nous</a>
                 </li>
                 <li class="nav-item d-flex flex-column justify-content-center">
-                    <a class="nav-link js-scroll-trigger  d-flex flex-column justify-content-center" href="index.html#services">Nos Services</a>
+                    <a class="nav-link js-scroll-trigger  d-flex flex-column justify-content-center" href="/#services">Nos Services</a>
                 </li>
                 <li class="nav-item d-flex flex-column justify-content-center">
-                    <a class="nav-link js-scroll-trigger  d-flex flex-column justify-content-center" href="index.html#assistance">Assistance</a>
+                    <a class="nav-link js-scroll-trigger  d-flex flex-column justify-content-center" href="/#assistance">Assistance</a>
                 </li>
                 <li class="nav-item d-flex flex-column justify-content-center">
                     <a class="nav-link js-scroll-trigger  d-flex flex-column justify-content-center" href="#contact">Contact</a>

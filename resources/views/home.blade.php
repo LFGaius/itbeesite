@@ -82,7 +82,7 @@
             <div class="d-flex justify-content-around flex-wrap">
                 
                 <div class="services-items">
-                    <a href="pages/formation.html">
+                    <a href="/formation">
                         <div class="d-flex flex-column justify-content-center item ">
                             <div class="text-center service-image-zone">
                                 <img src="assets/formation-img.jpg" alt="activity image">
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="services-items">
-                    <a href="pages/coaching.html">
+                    <a href="/coaching">
                         <div class="d-flex flex-column justify-content-center item ">
                             <div class="text-center service-image-zone">
                                 <img src="assets/coaching-img.jpg" alt="activity image">
@@ -108,7 +108,7 @@
                 </div>
             
                 <div class="services-items">
-                    <a href="pages/consulting.html">
+                    <a href="/consulting">
                         <div class="d-flex flex-column justify-content-center item ">
                             <div class="text-center service-image-zone">
                                 <img src="assets/consulting-img.jpg" alt="activity image">
@@ -134,7 +134,7 @@
                     </a>
                 </div>
                 <div class="services-items">
-                    <a href="pages/maintinfo.html">
+                    <a href="/maintinfo">
                         <div class="d-flex flex-column justify-content-center item ">
                             <div class="text-center service-image-zone">
                                 <img src="assets/maintenance-info-img.jpg" alt="activity image">
@@ -146,7 +146,7 @@
                     </a>
                 </div>
                 <div class="services-items">
-                    <a href="pages/secretbureau.html">
+                    <a href="/secretbureau">
                         <div class="d-flex flex-column justify-content-center item ">
                             <div class="text-center service-image-zone">
                                 <img src="assets/secret-bureaut-img.jpg" alt="activity image">
