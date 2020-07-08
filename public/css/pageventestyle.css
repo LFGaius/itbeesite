@@ -1,0 +1,85 @@
+
+
+.reservation-zone{
+    width:30%;
+    font-family: Gabriola;
+}
+
+.reservation-zone .title{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #2096dbe7;
+}
+
+.reservation-zone .form-block{
+    margin-top: 50px;
+    color: #07476b;
+}
+
+.reservation-zone .form-block .btn{
+    background-color: #2096dbe7;
+    color: #f9f9f9;
+    font-weight: bold;
+}
+
+.catalog-zone{
+    width: 50%;
+    font-family: Gabriola;
+    background-color: #2096db0c;
+}
+
+.catalog-zone .title{
+    font-size: 30px;
+    background-image: url('../assets/footer-back.jpg');
+    background-size: cover;
+    color: #f9f9f9b2;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+.catalog-items {
+    background-color: #2097db;
+    color: rgba(249, 249, 249, 0.95);
+    font-family: Gabriola;
+    font-size: 23px;
+    box-shadow: 0px 10px 0px 0px rgba(0, 16, 19, 0.1);
+    margin-bottom: 40px;
+    transition-duration: 1s;
+    opacity: 0.9;
+}
+
+.catalog-items:hover {
+    box-shadow: 0px 10px 2px 0px rgba(0, 16, 19, 0.1);
+    transform:scale(1.5,1.5);
+    transition-duration: 1s;
+    opacity: 1;
+    z-index: 99;
+}
+
+.catalog-items a{
+    text-decoration: none;
+    color: #f9f9f9d7;
+}
+
+.catalog-items .text{
+    background-image: url('../assets/sevice-base-img.jpg');
+    background-size: cover;
+}
+
+.catalog-items img{
+    width: 200px;
+    height: 150px;
+}
+
+/*sm*/
+@media (max-width: 768px) { 
+    .catalog-zone{
+        width: 100%;
+    }
+    
+    .reservation-zone{
+        width: 100%;
+    }
+}

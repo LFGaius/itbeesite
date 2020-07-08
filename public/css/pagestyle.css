@@ -1,0 +1,69 @@
+.info-zone{
+    width: 50%;
+    font-family: Gabriola;
+    background-color: #2096db0c;
+}
+
+.info-zone .image-block{
+    background-color: rgba(10, 10, 10, 1);
+    background-image: url('../assets/coaching-img.jpg');
+    background-size:100% 65vh;
+    color: #f9f9f9;
+}
+
+.info-zone .image-block .image{
+    width: 100%;
+    height: 65vh;
+    background-color: #07466bb0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.info-zone .text{
+    width: 100%;
+    min-height: 35vh;
+    font-size: 30px;
+}
+
+.form-zone{
+    width: 50%;
+    font-family: Gabriola;
+}
+
+.form-zone .title{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #2096dbe7;
+}
+
+.form-zone .form-block{
+    margin-top: 50px;
+    color: #07476b;
+}
+
+.form-zone .form-block .btn{
+    background-color: #2096dbe7;
+    color: #f9f9f9;
+    font-weight: bold;
+}
+
+/*sm*/
+@media (max-width: 768px) { 
+    .info-zone{
+        width: 100%;
+    }
+    
+    .form-zone{
+        width: 100%;
+    }
+
+    .info-zone .text{
+        width: 100%;
+        min-height: 50px;
+    }
+
+    .info-zone .text{
+        text-align: center;
+    }
+}
