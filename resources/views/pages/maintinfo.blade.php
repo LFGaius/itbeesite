@@ -50,7 +50,17 @@
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">
             <div class="title">Faites une demande de service de maintenance en remplissant ce formulaire !</div>
-            <form class="form-block">
+            @if(count($errors)>0)
+                <div class="alert alert-danger">
+                    <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{$error}}</li>
+                    @endforeach
+                    </ul>
+                </div>
+            @endif
+            <form class="form-block" action="/senddemandeservicemaintinfo" method="post">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group">
                     <label for="completename">Nom Complet</label>
                     <input class="form-control" id="completename" name="completename" placeholder="Entrez votre nom complet">

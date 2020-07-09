@@ -50,14 +50,24 @@
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">
             <div class="title">Faites une demande de formation en remplissant ce formulaire !</div>
-            <form class="form-block">
+            @if(count($errors)>0)
+                <div class="alert alert-danger">
+                    <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{$error}}</li>
+                    @endforeach
+                    </ul>
+                </div>
+            @endif
+            <form class="form-block" action="/senddemandeformation" method="post">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group">
                     <label for="completename">Nom Complet</label>
-                    <input class="form-control" id="completename" name="completename" placeholder="Entrez votre nom complet">
+                    <input class="form-control" id="completename" name="completename" placeholder="Entrez votre nom complet" >
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Addresse Email">
+                    <input  class="form-control" id="email" name="email" placeholder="Addresse Email" >
                 </div>
                 
                 <div class="d-flex justify-content-around flex-wrap-reverse">
@@ -77,7 +87,7 @@
                     </div>
                     <div class="form-group flex-fill mr-2">
                         <label for="phone">Téléphone</label>
-                        <input type="phone" class="form-control" id="phone" name="phone" placeholder="Numéro de téléphone">
+                        <input type="phone" class="form-control" id="phone" name="phone" placeholder="Numéro de téléphone" >
                     </div>
                 </div>
 
@@ -100,7 +110,7 @@
                 
                 <div class="form-group">
                   <label for="message">Message</label>
-                  <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                  <textarea class="form-control" id="message" name="message" rows="3" ></textarea>
                 </div>
                 <div>
                     <button type="submit" class="btn mb-4">Envoyer la demande</button>

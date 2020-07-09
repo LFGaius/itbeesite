@@ -42,3 +42,10 @@ Route::get('/secretbureau', function () {
     return view('pages.secretbureau');
 });
 
+Route::post('/senddemandeformation', 'MessageController@senddemandeformation');
+Route::post('senddemandecoaching', 'MessageController@senddemandecoaching');
+Route::post('senddemandeconsulting', 'MessageController@senddemandeconsulting');
+Route::post('senddemandeservicemaintinfo', 'MessageController@senddemandeservicemaintinfo');
+Route::post('senddemandeservicesecretbureau', 'MessageController@senddemandeservicesecretbureau');
+Route::post('sendreservationmateriel', 'MessageController@sendreservationmateriel');
+

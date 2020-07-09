@@ -194,7 +194,17 @@
         </div>
         <div class="reservation-zone flex-fill d-flex flex-column justify-content-start px-3">
             <div class="title">Faites une réservation de matériel informatique en remplissant ce formulaire !</div>
-            <form class="form-block">
+            @if(count($errors)>0)
+                <div class="alert alert-danger">
+                    <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{$error}}</li>
+                    @endforeach
+                    </ul>
+                </div>
+            @endif
+            <form class="form-block" action="/sendreservationmateriel" method="post">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group">
                     <label for="completename">Nom Complet</label>
                     <input class="form-control" id="completename" name="completename" placeholder="Entrez votre nom complet">
@@ -229,7 +239,7 @@
                     </div>
                     <div class="form-group flex-fill mr-2">
                         <label for="phone">Quantité</label>
-                        <input type="number" class="form-control" id="phone" name="phone" placeholder="Numéro de téléphone">
+                        <input type="number" class="form-control" id="quantite" name="quantite" placeholder="Numéro de téléphone">
                     </div>
                 </div>
                 
