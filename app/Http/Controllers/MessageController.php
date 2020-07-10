@@ -12,11 +12,22 @@ class MessageController extends Controller
 {
     public function senddemandeformation(Request $request)
     {
+        
+    
+        $customMessages = [
+            'completename.required' => 'Le nom complet est requis !',
+            'email.required' => 'L\'email complet est requis !',
+            'message.required' => 'Le message est requis !',
+            'phone.required' => 'Le numéro de téléphone est requis !',
+            'email' => 'Email incorrect !',
+            'phone.regex' => 'Format incorrect du numéro de téléphone !'
+        ];
+    
         $this->validate($request,[
             'completename'=>'required',  
             'email'=>'required|email',
             'phone'=>'required|regex:/[0-9]+/'
-        ]);
+        ],$customMessages);
 
         $data=array(
             'completename'=>$request->completename,
@@ -37,12 +48,21 @@ class MessageController extends Controller
 
     public function senddemandecoaching(Request $request)
     {
+        $customMessages = [
+            'completename.required' => 'Le nom complet est requis !',
+            'email.required' => 'L\'email complet est requis !',
+            'message.required' => 'Le message est requis !',
+            'phone.required' => 'Le numéro de téléphone est requis !',
+            'email' => 'Email incorrect !',
+            'phone.regex' => 'Format incorrect du numéro de téléphone !'
+        ];
+
         $this->validate($request,[
             'completename'=>'required', 
             'message'=>'required',  
             'email'=>'required|email',
             'phone'=>'required|regex:/[0-9]+/'
-        ]);
+        ],$customMessages);
 
         $data=array(
             'completename'=>$request->completename,
@@ -62,12 +82,21 @@ class MessageController extends Controller
 
     public function senddemandeconsulting(Request $request)
     {
+        $customMessages = [
+            'completename.required' => 'Le nom complet est requis !',
+            'email.required' => 'L\'email complet est requis !',
+            'message.required' => 'Le message est requis !',
+            'phone.required' => 'Le numéro de téléphone est requis !',
+            'email' => 'Email incorrect !',
+            'phone.regex' => 'Format incorrect du numéro de téléphone !'
+        ];
+
         $this->validate($request,[
             'completename'=>'required', 
             'message'=>'required',  
             'email'=>'required|email',
             'phone'=>'required|regex:/[0-9]+/'
-        ]);
+        ],$customMessages);
 
         $data=array(
             'completename'=>$request->completename,
@@ -87,12 +116,21 @@ class MessageController extends Controller
 
     public function senddemandeservicemaintinfo(Request $request)
     {
+        $customMessages = [
+            'completename.required' => 'Le nom complet est requis !',
+            'email.required' => 'L\'email complet est requis !',
+            'message.required' => 'Le message est requis !',
+            'phone.required' => 'Le numéro de téléphone est requis !',
+            'email' => 'Email incorrect !',
+            'phone.regex' => 'Format incorrect du numéro de téléphone !'
+        ];
+
         $this->validate($request,[
             'completename'=>'required', 
             'message'=>'required',  
             'email'=>'required|email',
             'phone'=>'required|regex:/[0-9]+/'
-        ]);
+        ],$customMessages);
 
         $data=array(
             'completename'=>$request->completename,
@@ -112,12 +150,21 @@ class MessageController extends Controller
 
     public function senddemandeservicesecretbureau(Request $request)
     {
+        $customMessages = [
+            'completename.required' => 'Le nom complet est requis !',
+            'email.required' => 'L\'email complet est requis !',
+            'message.required' => 'Le message est requis !',
+            'phone.required' => 'Le numéro de téléphone est requis !',
+            'email' => 'Email incorrect !',
+            'phone.regex' => 'Format incorrect du numéro de téléphone !'
+        ];
+
         $this->validate($request,[
             'completename'=>'required', 
             'message'=>'required',  
             'email'=>'required|email',
             'phone'=>'required|regex:/[0-9]+/'
-        ]);
+        ],$customMessages);
 
         $data=array(
             'completename'=>$request->completename,
@@ -137,12 +184,23 @@ class MessageController extends Controller
 
     public function sendreservationmateriel(Request $request)
     {
+        $customMessages = [
+            'quantity.required' => 'La quantité est requise !',
+            'completename.required' => 'Le nom complet est requis !',
+            'email.required' => 'L\'email complet est requis !',
+            'message.required' => 'Le message est requis !',
+            'phone.required' => 'Le numéro de téléphone est requis !',
+            'email' => 'Email incorrect !',
+            'phone.regex' => 'Format incorrect du numéro de téléphone !',
+            'quantity.regex' => 'Format incorrect pour le champ :attribute !'
+        ];
+
         $this->validate($request,[
             'completename'=>'required',  
             'email'=>'required|email',
             'phone'=>'required|regex:/[0-9]+/',
             'quantity'=>'required|regex:/[0-9]+/'
-        ]);
+        ],$customMessages);
 
         $data=array(
             'completename'=>$request->completename,
