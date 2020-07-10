@@ -93,7 +93,7 @@
 
                 <div class="form-group flex-fill mr-2">
                     <label for="gender">Type De Formation</label>
-                    <select class="form-control" id="gender" name="gender">
+                    <select class="form-control" id="trainingtype" name="trainingtype">
                         <option>Connaître sa vocation</option>
                         <option>Comment créer une entreprise</option>
                         <option>Secrétariat Bureautique</option>

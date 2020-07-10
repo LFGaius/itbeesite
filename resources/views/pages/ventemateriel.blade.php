@@ -222,8 +222,15 @@
                 </div>
                 <div class="d-flex justify-content-around flex-wrap-reverse">
                     <div class="form-group flex-fill mr-2">
-                        <label for="gender">Type de matériel</label>
+                        <label for="gender">Sexe</label>
                         <select class="form-control" id="gender" name="gender">
+                            <option>Masculin</option>
+                            <option>Féminin</option>
+                        </select>
+                    </div>
+                    <div class="form-group flex-fill mr-2">
+                        <label for="materialtype">Type de matériel</label>
+                        <select class="form-control" id="materialtype" name="materialtype">
                             <option>Souris</option>
                             <option>Clavier</option>
                             <option>Laptop</option>
@@ -238,8 +245,8 @@
                         </select>
                     </div>
                     <div class="form-group flex-fill mr-2">
-                        <label for="phone">Quantité</label>
-                        <input type="number" class="form-control" id="quantite" name="quantite" placeholder="Numéro de téléphone">
+                        <label for="quantity">Quantité</label>
+                        <input type="number" class="form-control" id="quantity" name="quantity">
                     </div>
                 </div>
                 

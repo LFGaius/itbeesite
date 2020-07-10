@@ -10,12 +10,17 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 class SendMail extends Mailable
 {
     use Queueable,SerializesModels;
-    public function senddemandeformation(Request $request)
+
+    public $data;
+
+    public function __construct($data)
     {
-        $this->validate($request,[
-            'completename'=>'required',  
-            'email'=>'required|email',
-            'phone'=>'required|required|regex:/(01)[0-9]{9}/'    
-        ]);
+       $this->data=$data; 
+    }
+
+    public function build()
+    {
+        return $this->from('liburialgaius@gmail.com')->subject($this->data['subject'])
+        ->view('email_template.dynamic_demande_template')->with('data',$this->data);
     }
 }
