@@ -30,7 +30,7 @@ class MessageController extends Controller
             'trainingtype'=>$request->trainingtype
         );
 
-        Mail::to('liburialgaius@gmail.com')->send(new SendMail($data));
+        Mail::to(env('EMAIL_ADMIN_ITBEE'))->send(new SendMail($data));
 
         return back()->with('success','Thanks!');
     }
@@ -55,7 +55,7 @@ class MessageController extends Controller
             'message'=>$request->message
         );
 
-        Mail::to('liburialgaius@gmail.com')->send(new SendMail($data));
+        Mail::to(env('EMAIL_ADMIN_ITBEE'))->send(new SendMail($data));
 
         return back()->with('success','Thanks!');
     }
@@ -80,7 +80,7 @@ class MessageController extends Controller
             'message'=>$request->message
         );
 
-        Mail::to('liburialgaius@gmail.com')->send(new SendMail($data));
+        Mail::to(env('EMAIL_ADMIN_ITBEE'))->send(new SendMail($data));
 
         return back()->with('success','Thanks!');
     }
@@ -105,7 +105,7 @@ class MessageController extends Controller
             'message'=>$request->message
         );
 
-        Mail::to('liburialgaius@gmail.com')->send(new SendMail($data));
+        Mail::to(env('EMAIL_ADMIN_ITBEE'))->send(new SendMail($data));
 
         return back()->with('success','Thanks!');
     }
@@ -130,7 +130,7 @@ class MessageController extends Controller
             'message'=>$request->message
         );
 
-        Mail::to('liburialgaius@gmail.com')->send(new SendMail($data));
+        Mail::to(env('EMAIL_ADMIN_ITBEE'))->send(new SendMail($data));
 
         return back()->with('success','Thanks!');
     }
@@ -156,7 +156,7 @@ class MessageController extends Controller
             'message'=>$request->message
         );
 
-        Mail::to('liburialgaius@gmail.com')->send(new SendMail($data));
+        Mail::to(env('EMAIL_ADMIN_ITBEE'))->send(new SendMail($data));
 
         return back()->with('success','Thanks!');
     }

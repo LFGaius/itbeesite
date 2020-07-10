@@ -20,7 +20,7 @@ class SendMail extends Mailable
 
     public function build()
     {
-        return $this->from('liburialgaius@gmail.com')->subject($this->data['subject'])
+        return $this->from(env('MAIL_USERNAME'))->subject($this->data['subject'])
         ->view('email_template.dynamic_demande_template')->with('data',$this->data);
     }
 }
