@@ -46,7 +46,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/formation-img.jpg" alt="activity image">
+                                        <img src="assets/souris.png" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Souris</div>
@@ -59,7 +59,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/clavier.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Clavier</div>
@@ -72,7 +72,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/laptop.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Laptop</div>
@@ -84,10 +84,10 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/desktop.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Desktop</div>
+                                        <div class="text-center font-weight-bold label">Ordinateur de bureau</div>
                                     </div>
                                 </div>
                             </a>
@@ -96,7 +96,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/imprimante.png" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Imprimante</div>
@@ -108,7 +108,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/scanner.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Scanner</div>
@@ -120,7 +120,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/photocopieuse.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Photocopieuse</div>
@@ -132,7 +132,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/disquedur.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Disque Dur</div>
@@ -144,7 +144,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/projecteur.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Projecteur</div>
@@ -156,7 +156,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/cleusb.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Clé USB</div>
@@ -168,10 +168,10 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/papierformat.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">WebCam</div>
+                                        <div class="text-center font-weight-bold label">Papier Format</div>
                                     </div>
                                 </div>
                             </a>
@@ -180,7 +180,7 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/coaching-img.jpg" alt="activity image">
+                                        <img src="assets/appareilphoto.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
                                         <div class="text-center font-weight-bold label">Appareil Photo</div>
@@ -234,7 +234,7 @@
                             <option>Souris</option>
                             <option>Clavier</option>
                             <option>Laptop</option>
-                            <option>Desktop</option>
+                            <option>Ordinateur de bureau</option>
                             <option>Imprimante</option>
                             <option>Scanner</option>
                             <option>Photocopieuse</option>
