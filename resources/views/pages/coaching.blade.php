@@ -44,7 +44,7 @@
             </div>
             
             <div class="text p-3">
-                Nous sommes disposer à vous coacher que vous soyez un particulier ou une entreprise ! 
+                Bénéficiez de notre disponibilité pour accroitre votre performance et celle de votre entreprise. 
             </div>
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">

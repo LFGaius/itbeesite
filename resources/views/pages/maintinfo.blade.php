@@ -45,7 +45,7 @@
             </div>
             
             <div class="text p-3">
-                Nous faisons de la formation ... 
+                Bénéficiez d'un service d'entretient de qualité de votre matériel informatique! 
             </div>
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">

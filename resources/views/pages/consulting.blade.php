@@ -45,7 +45,7 @@
             </div>
             
             <div class="text p-3">
-                Nous faisons de la consultation ... 
+                Nous mettons à votre disposition notre expertise, pour le développement de vos projets !
             </div>
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">

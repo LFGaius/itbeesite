@@ -75,7 +75,7 @@
                                         <img src="assets/laptop.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Laptop</div>
+                                        <div class="text-center font-weight-bold label">Laptops</div>
                                     </div>
                                 </div>
                             </a>
@@ -87,7 +87,7 @@
                                         <img src="assets/desktop.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Ordinateur de bureau</div>
+                                        <div class="text-center font-weight-bold label">Ordinateurs de bureau</div>
                                     </div>
                                 </div>
                             </a>
@@ -99,7 +99,7 @@
                                         <img src="assets/imprimante.png" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Imprimante</div>
+                                        <div class="text-center font-weight-bold label">Imprimantes</div>
                                     </div>
                                 </div>
                             </a>
@@ -111,7 +111,7 @@
                                         <img src="assets/scanner.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Scanner</div>
+                                        <div class="text-center font-weight-bold label">Scanners</div>
                                     </div>
                                 </div>
                             </a>
@@ -123,7 +123,7 @@
                                         <img src="assets/photocopieuse.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Photocopieuse</div>
+                                        <div class="text-center font-weight-bold label">Photocopieuses</div>
                                     </div>
                                 </div>
                             </a>
@@ -135,7 +135,7 @@
                                         <img src="assets/disquedur.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Disque Dur</div>
+                                        <div class="text-center font-weight-bold label">Disques Durs</div>
                                     </div>
                                 </div>
                             </a>
@@ -147,7 +147,7 @@
                                         <img src="assets/projecteur.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Projecteur</div>
+                                        <div class="text-center font-weight-bold label">Projecteurs</div>
                                     </div>
                                 </div>
                             </a>
@@ -159,7 +159,7 @@
                                         <img src="assets/cleusb.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Clé USB</div>
+                                        <div class="text-center font-weight-bold label">Clés USB</div>
                                     </div>
                                 </div>
                             </a>
@@ -180,10 +180,10 @@
                             <a>
                                 <div class="d-flex flex-column justify-content-center item ">
                                     <div class="text-center catalog-image-zone">
-                                        <img src="assets/appareilphoto.jpg" alt="activity image">
+                                        <img src="assets/cartememoire.jpg" alt="activity image">
                                     </div>
                                     <div class=" py-3 text d-flex flex-column justify-content-center ">
-                                        <div class="text-center font-weight-bold label">Appareil Photo</div>
+                                        <div class="text-center font-weight-bold label">Cartes Mémoires</div>
                                     </div>
                                 </div>
                             </a>
@@ -241,7 +241,7 @@
                             <option>Disque Dur</option>
                             <option>Projecteur</option>
                             <option>Clé USB</option>
-                            <option>WebCam</option>
+                            <option>Carte Mémoire</option>
                         </select>
                     </div>
                     <div class="form-group flex-fill mr-2">

@@ -45,7 +45,7 @@
             </div>
             
             <div class="text p-3">
-                Nous faisons de la formation ... 
+                Faites conçevoir et imprimer tous vos documents sur tous supports en qualité supérieure!
             </div>
         </div>
         <div class="form-zone flex-fill d-flex flex-column justify-content-start px-3">
